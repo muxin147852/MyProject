@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/menu_tab1"
+        android:icon="@android:drawable/ic_input_get"
+        android:title="地下城与勇士                                >当前专区"
+        android:checked="true"/>
+
+        <item
+            android:id="@+id/menu_tab2"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="英雄联盟>" />
+
+        <item
+            android:id="@+id/menu_tab3"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="穿越火线"/>
+
+        <item
+            android:id="@+id/menu_tab4"
+            android:icon="@android:drawable/sym_def_app_icon"
+            android:title="NBA2K OL"/>
+        <item
+            android:id="@+id/menu_tab5"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="添加更多游戏"/>
+
+
+    </group>
+    <group android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:icon="@android:drawable/ic_menu_report_image"
+            android:id="@+id/menu_item1_group2"
+            android:title="吐个槽"/>
+        <item
+            android:icon="@android:drawable/ic_menu_zoom"
+            android:id="@+id/menu_item2_group2"
+            android:title="更多"/>
+
+    </group>
+
+</menu>
